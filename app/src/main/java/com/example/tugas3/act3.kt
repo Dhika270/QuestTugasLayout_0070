@@ -45,6 +45,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(16.dp))
 
+        // LazyColumn untuk menampung seluruh card agar bisa di-scroll
+        LazyColumn(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxWidth()
+        ) {
+
+        }
 
     }
 }
