@@ -115,6 +115,12 @@ fun ProfilCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+            // Logo Kiri
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(55.dp)
+            )
 
 
             }
