@@ -92,3 +92,19 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
     }
 }
+
+// 1 Fungsi Card yang Reusable untuk seluruh kartu dengan logo di kiri dan kanan
+@Composable
+fun ProfilCard(
+    backgroundColor: Color,
+    nama: String,
+    telepon: String,
+    alamat: String,
+    fontFamily: FontFamily
+) {
+
+
+            }
+
+    }
+}
