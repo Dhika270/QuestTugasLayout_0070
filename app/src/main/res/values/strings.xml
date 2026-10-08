@@ -8,4 +8,9 @@
     <string name="telp_1"></string> <!-- Jika card 1 tidak ada nomor telp di gambar, bisa dikosongkan atau disesuaikan -->
     <string name="alamat_1">Turi, Sleman</string>
 
+    <!-- Card 2 -->
+    <string name="nama_2">Gibran Fathoni</string>
+    <string name="telp_2">085436874190</string>
+    <string name="alamat_2">Kasihan, Bantul</string>
+
 </resources>
