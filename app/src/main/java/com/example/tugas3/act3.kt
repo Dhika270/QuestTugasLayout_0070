@@ -122,6 +122,14 @@ fun ProfilCard(
                 modifier = Modifier.size(55.dp)
             )
 
+            // Informasi Teks di Tengah
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+
 
             }
 
