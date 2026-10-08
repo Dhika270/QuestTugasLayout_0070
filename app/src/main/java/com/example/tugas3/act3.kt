@@ -143,7 +143,11 @@ fun ProfilCard(
                         color = Color.Cyan
                     )
                 }
-
+                Text(
+                    text = alamat,
+                    fontSize = 15.sp,
+                    color = Color.Yellow
+                )
             }
 
     }
