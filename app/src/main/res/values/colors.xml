@@ -7,4 +7,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <!-- Warna Card -->
+    <color name="card_1_bg">#575454</color> <!-- Abu-abu -->
 </resources>
