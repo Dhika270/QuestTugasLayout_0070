@@ -51,6 +51,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 .weight(1f)
                 .fillMaxWidth()
         ) {
+            item {
+                ProfilCard(
+                    backgroundColor = colorResource(R.color.card_1_bg),
+                    nama = stringResource(R.string.nama_1),
+                    telepon = "",
+                    alamat = stringResource(R.string.alamat_1),
+                    fontFamily = FontFamily.Cursive
+                )
 
         }
 
