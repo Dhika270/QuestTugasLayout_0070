@@ -9,4 +9,5 @@
 
     <!-- Warna Card -->
     <color name="card_1_bg">#575454</color> <!-- Abu-abu -->
+    <color name="card_2_bg">#7B3F00</color> <!-- Ungu/Plum (sesuaikan hex ungu di gambar) -->
 </resources>
