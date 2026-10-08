@@ -108,6 +108,13 @@ fun ProfilCard(
             containerColor = backgroundColor
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
 
 
             }
