@@ -136,6 +136,13 @@ fun ProfilCard(
                     fontWeight = FontWeight.Bold,
                     color = Color.White
                 )
+                if (telepon.isNotEmpty()) {
+                    Text(
+                        text = telepon,
+                        fontSize = 15.sp,
+                        color = Color.Cyan
+                    )
+                }
 
             }
 
