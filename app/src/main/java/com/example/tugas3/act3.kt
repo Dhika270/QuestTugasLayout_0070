@@ -129,7 +129,13 @@ fun ProfilCard(
                     .padding(horizontal = 12.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-
+                Text(
+                    text = nama,
+                    fontSize = 20.sp,
+                    fontFamily = fontFamily,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
 
             }
 
