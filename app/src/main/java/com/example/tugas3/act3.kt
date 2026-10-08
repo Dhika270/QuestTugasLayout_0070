@@ -67,6 +67,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     alamat = stringResource(R.string.alamat_2),
                     fontFamily = FontFamily.Default
                 )
+                Spacer(modifier = Modifier.height(12.dp))
+                ProfilCard(
+                    backgroundColor = colorResource(R.color.teal_700),
+                    nama = stringResource(R.string.nama_3),
+                    telepon = stringResource(R.string.telp_3),
+                    alamat = stringResource(R.string.alamat_3),
+                    fontFamily = FontFamily.Default
+                )
 
             }
         }
