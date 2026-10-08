@@ -102,6 +102,12 @@ fun ProfilCard(
     alamat: String,
     fontFamily: FontFamily
 ) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = backgroundColor
+        )
+    ) {
 
 
             }
